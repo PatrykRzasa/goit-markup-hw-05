@@ -337,7 +337,6 @@ header {
   height: 294px;
   display: flex;
   align-items: center;
-  padding: ;
   background: rgba(33, 150, 243, 0.9);
   transform: translateY(100%);
   transition-property: transform;
@@ -554,8 +553,9 @@ img {
   border-radius: 4px;
   display: block;
   position: absolute;
-  top: 221px;
-  left: 536px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   cursor: auto;
 }
 
