@@ -476,8 +476,8 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: rgba(175, 177, 184, 1);
-  transition-property: color;
+  border-color: rgba(175, 177, 184, 1);
+  transition-property: border-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -494,7 +494,7 @@ img {
 }
 .logo-box:hover,
 .logo-box:focus {
-  color: var(--hover-color);
+  border-color: var(--hover-color);
   cursor: pointer;
 }
 .footer-block-2 {
